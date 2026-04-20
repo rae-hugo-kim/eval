@@ -1,3 +1,10 @@
+---
+name: check-harness
+allowed-tools: Read, Write, Bash(mkdir:*), Bash(open:*), Bash(cat:*), Bash(ls:*), Bash(find:*), Bash(git log:*), Bash(git diff:*), Bash(date:*), Glob, Grep, Agent, AskUserQuestion
+argument-hint: [overall | project | all]
+description: Harness maturity diagnostic — 6-axis evaluation (scaffolding, context, planning, execution, verification, compounding). Use when the user says "check-harness", "하네스 진단", "하네스 점검", "harness maturity", or wants to diagnose harness health.
+---
+
 # /check-harness — Harness 성숙도 진단 (v3)
 
 **6축 사이클** 로 평가한다: **구조 → 맥락 → 계획 → 실행 → 검증 → 개선**.
